@@ -1,0 +1,50 @@
+
+body{
+    font-weight:bold ;
+
+    width: fit-content;
+
+}
+
+
+article{
+    overflow-wrap: break-word;
+    margin: 30px auto;
+    padding: 0 50px;
+
+}
+caption{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+th, td{
+    padding: 4px;
+}
+ td{
+     border: black solid 2px;
+     font-size: 14px;
+     border-radius: 5%;
+     text-align: center;
+     margin: 0;
+     border-spacing: 0;
+ }
+ th{
+      font-size: 24px;
+      border: black solid 2px;
+      text-align: center;
+  }
+
+
+
+ tr:nth-child(even){
+     background-color: lightgray;
+ }
+
+
+
+
+ .online{
+     color: blue;
+ }
+
+     
